@@ -1,4 +1,4 @@
-from flask import Flask, url_for
+from flask import Flask, url_for, render_template
 
 app = Flask(__name__)
 
@@ -76,6 +76,11 @@ def promotion_image():
     <p class="red">Присоединяйся!</p>
 </body>
 </html>"""
+
+
+@app.route("/astronaut_selection")
+def astronaut_selection():
+    return render_template("static/html/astronaut_selection.html")
 
 
 if __name__ == "__main__":
