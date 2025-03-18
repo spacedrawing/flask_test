@@ -15,12 +15,12 @@ p {
 
 .main_form {
   display: flex;
-  align-self: center;
+  margin-left: 39%;
   background-color: #fdd9ba;
   border: 0.1rem solid #000000;
   border-radius: 10px;
   padding: 10px;
-  width: 17%;
+  width: fit-content;
 }
 
 .main_form input[type="text"] {
